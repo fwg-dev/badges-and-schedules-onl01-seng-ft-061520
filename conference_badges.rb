@@ -3,9 +3,9 @@ def badge_maker(name) #creating a method for speaker
   "Hello, my name is #{name}."
 end
 #
-# def batch_badge_creator(speakers)
-#   speakers.collect {|name| badge_maker(name)}
-# end
+def batch_badge_creator(attendees)
+ attendees.collect {|name| "Hello, my name is #{name}."}
+end
 #
 # def assign_rooms(speakers)
 #   room = 0
