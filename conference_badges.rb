@@ -2,11 +2,11 @@
 def badge_maker(name) #creating a method for speaker
   "Hello, my name is #{name}."
 end
-# 
+#
 # def batch_badge_creator(speakers)
 #   speakers.collect {|name| badge_maker(name)}
 # end
-# 
+#
 # def assign_rooms(speakers)
 #   room = 0
 #   speakers.collect do |name|
@@ -14,7 +14,7 @@ end
 #   "Hello, #{name}! You'll be assigned to room #{room}!"
 # end
 # end
-# 
+#
 # def printer(speakers)
 #   batch_badge_creator(speakers).each do |value|
 #     puts value
